@@ -1,4 +1,4 @@
 $(document).ready(function() {
-var url = "http://goldstarmmj.com/?app";    
+var url = "https://goldstarmmj.com/?app";    
 $(location).attr('href',url);
 });
