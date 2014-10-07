@@ -12,8 +12,6 @@
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
     <gap:plugin name="org.apache.cordova.device" />
-	<gap:plugin name="org.apache.cordova.inappbrowser" />
-    <gap:plugin name="de.appplant.cordova.plugin.local-notification" />
 	<preference name="phonegap-version" value="3.5.0" />
 	<preference name="splash-screen-duration" value="5000" />
     <preference name="orientation" value="default" />
