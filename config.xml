@@ -24,6 +24,6 @@
 	<access origin="*" />
     <access origin="tel:*" launch-external="yes" />
     <access origin="mailto:*" launch-external="yes" />
-	<content src="https://goldstarmmj.com" />
+	<content src="https://goldstarmmj.com?app" />
 
 </widget>
