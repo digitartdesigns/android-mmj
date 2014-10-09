@@ -22,4 +22,6 @@
 	<gap:splash src="images/screen-portrait-lg.png" gap:platform="android" gap:density="ldpi" />
 	<gap:splash src="images/screen-portrait-xh.png" gap:platform="android" gap:density="xhdpi" />
 	<access origin="*" />
+    <access origin="tel:*" launch-external="yes" />
+    <access origin="mailto:*" launch-external="yes" />
 </widget>
