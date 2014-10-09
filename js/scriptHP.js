@@ -1,7 +1,7 @@
 $(document).ready(function() {
 //var url = "https://goldstarmmj.com/?app";    
 //$(location).attr('href',url);
-$(".container a, #footer_powered a").click(function (e) {
+$(".ps-pages a").click(function (e) {
 			var inapp = $(this).attr("target");
 			var inappform = $(this).attr("target");
 			if(inapp=="_blank"){
