@@ -9,5 +9,5 @@ $(".ps-pages a").click(function (e) {
 			var targetURL = encodeURI($(this).attr("href"));
 			window.open(targetURL, "_blank",'location=yes');
 			 }
-		   });
+  });
 });
