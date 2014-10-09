@@ -15,10 +15,11 @@
 	<preference name="splash-screen-duration" value="6000" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
+	<gap:plugin name="org.apache.cordova.device" />
 	<gap:plugin name="org.apache.cordova.inappbrowser" />
 	<icon src="images/icon-72.png" gap:platform="android" gap:density="hdpi" gap:role="default" />
 	<gap:splash src="images/screen-portrait-md.png" gap:platform="android" gap:density="mdpi" />
 	<gap:splash src="images/screen-portrait-lg.png" gap:platform="android" gap:density="ldpi" />
 	<gap:splash src="images/screen-portrait-xh.png" gap:platform="android" gap:density="xhdpi" />
-	<access origin="*" />
+	<access origin="*" browserOnly="true"/>
 </widget>
